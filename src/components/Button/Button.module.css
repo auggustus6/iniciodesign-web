@@ -1,0 +1,24 @@
+:root {
+  --primary: #61e876;
+}
+
+.btn-primary {
+  padding: 1.2rem 2.4rem;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background: var(--primary);
+  color: #121214;
+  border: none;
+}
+
+.btn-primary-outline {
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 2rem 2.4rem;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background: black;
+}
