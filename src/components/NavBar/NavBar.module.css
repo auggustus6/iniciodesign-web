@@ -1,5 +1,5 @@
 .navBar {
-  width: 1200px;
+  max-width: 128rem;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -15,6 +15,7 @@
 }
 
 .item {
+  padding: 1rem;
   font-size: 1.6rem;
   cursor: pointer;
   font-weight: 500;

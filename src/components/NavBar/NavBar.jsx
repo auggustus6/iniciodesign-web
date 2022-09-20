@@ -11,12 +11,7 @@ const NavBar = () => {
         <li className={styles.item}>Serviços</li>
         <li className={styles.item}>Sobre</li>
         <li className={styles.item}>Portfólio</li>
-        <Button
-          type="button"
-          classname={stylesButton["btn-primary"]}
-        >
-         Contato
-        </Button>
+        <Button classname={stylesButton.btnPrimary}>Contato</Button>
       </ul>
     </nav>
   );

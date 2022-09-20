@@ -16,6 +16,7 @@
 body {
   background: var(--bg-color);
   color: #fff;
+  overflow-x: hidden;
 }
 
 html {
