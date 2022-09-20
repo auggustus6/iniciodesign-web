@@ -14,7 +14,6 @@ const NavBar = () => {
         <Button
           type="button"
           classname={stylesButton["btn-primary"]}
-          text="Contato"
         >
          Contato
         </Button>
