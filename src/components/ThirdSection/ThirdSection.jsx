@@ -35,12 +35,12 @@ const ThirdSection = ({ text, paragraph }) => {
               paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
             />
             <Card
-              img={pen}
+              img={code}
               text="Amet minim"
               paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
             />
             <Card
-              img={pen}
+              img={smartphone}
               text="Amet minim"
               paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
             />

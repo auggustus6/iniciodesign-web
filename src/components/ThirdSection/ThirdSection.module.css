@@ -41,6 +41,8 @@
 }
 
 .containerCard {
+  align-items: center;
+  justify-content: center;
   display: flex;
   max-width: 128rem;
   flex-wrap: wrap;

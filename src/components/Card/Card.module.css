@@ -1,24 +1,24 @@
 .card {
-  padding: 3.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   max-width: 38rem;
+  border: double 1px transparent;
   border-radius: 8px;
-  border: 1px solid;
-  border-image: linear-gradient(
-      133.79deg,
+  background-image: linear-gradient(#202024, #202024),
+    radial-gradient(
+      circle at top left,
       #4efb6a 0%,
       #fad03e 51.56%,
       #df1dff 100%
-    )
-    1;
-  background: rgba(255, 255, 255, 0.12);
+    );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .card img {
-  margin-bottom: 4rem;
+  margin: 4rem 0 2.5rem;
 }
 
 .card h3 {
@@ -34,4 +34,5 @@
   line-height: 2.4rem;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.72);
+  margin-bottom: 2.5rem;
 }
