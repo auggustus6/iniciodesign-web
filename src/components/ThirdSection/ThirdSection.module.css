@@ -1,0 +1,48 @@
+:root {
+  --bgg: #121214;
+}
+
+.bgContainer {
+  width: 100%;
+  background: var(--bgg);
+}
+
+.container {
+  max-width: 128rem;
+  margin: 0 auto;
+}
+
+.containerContent {
+  padding: 10rem 0 10rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerText h1 {
+  text-align: center;
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  letter-spacing: 0.02em;
+  max-width: 59rem;
+  margin-bottom: 1.6rem;
+}
+
+.containerText p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.72);
+  margin-bottom: 6rem;
+}
+
+.containerCard {
+  display: flex;
+  max-width: 128rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
