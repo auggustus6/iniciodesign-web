@@ -14,7 +14,7 @@
 }
 
 .containerContent {
-  padding: 10rem 0 10rem;
+  padding: 5rem 0 10rem;
 }
 
 .content {
@@ -38,7 +38,6 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.72);
-  margin-bottom: 6rem;
 }
 
 .containerCard {
@@ -50,4 +49,17 @@
 
 .containerCard .image {
   margin-top: 10rem;
+}
+
+@media (max-width: 600px) {
+  .containerCard {
+    flex-direction: column;
+  }
+  .containerCard .image {
+    margin-top: 5rem;
+  }
+  .containerText h1 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
 }

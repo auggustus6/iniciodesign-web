@@ -66,3 +66,10 @@
     margin-bottom: 4rem;
   }
 }
+
+@media (max-width: 420px) {
+  .containerText h1 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
+}
