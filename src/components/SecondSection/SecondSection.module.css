@@ -46,3 +46,23 @@
   line-height: 2.4rem;
   color: rgba(255, 255, 255, 0.72);
 }
+
+@media (max-width: 980px) {
+  .content {
+    flex-direction: column;
+  }
+  .containerContent {
+    padding: 5rem 0 0;
+  }
+  .containerText {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerButtons {
+    margin-bottom: 4rem;
+  }
+}

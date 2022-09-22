@@ -11,12 +11,12 @@
   list-style: none;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+  overflow-x: hidden;
 }
 
 body {
   background: var(--bg-color);
   color: #fff;
-  overflow-x: hidden;
 }
 
 html {

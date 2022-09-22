@@ -46,3 +46,25 @@
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.72);
 }
+
+@media (max-width: 980px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerContent {
+    padding: 0 0 5rem;
+  }
+  .containerText {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerButtons {
+    margin-bottom: 4rem;
+  }
+}

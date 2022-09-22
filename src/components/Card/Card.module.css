@@ -36,3 +36,9 @@
   color: rgba(255, 255, 255, 0.72);
   margin-bottom: 2.5rem;
 }
+
+@media (max-width: 825px) {
+  .card {
+    max-width: 30rem;
+  }
+}
