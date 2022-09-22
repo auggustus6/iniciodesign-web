@@ -8,13 +8,11 @@
 }
 
 .container {
-  max-width: 128rem;
-  margin: 0 auto;
   padding: 0 1rem;
 }
 
 .containerContent {
-  padding: 10rem 0 10rem;
+  padding-top: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;

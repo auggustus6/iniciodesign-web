@@ -5,6 +5,7 @@ import ThirdSection from "./components/ThirdSection/ThirdSection";
 import FourSection from "./components/FourSection/FourSection";
 import FiveSection from "./components/FiveSection/FiveSection";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         paragraph="Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi."
       />
       <Portfolio />
+      <Footer />
     </>
   );
 }

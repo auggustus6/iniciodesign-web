@@ -1,0 +1,88 @@
+:root {
+  --footerBg: #121214;
+}
+
+.bgContainer {
+  background: var(--footerBg);
+}
+
+.container {
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.containerContent {
+  display: flex;
+}
+
+.containerSocial {
+  display: flex;
+  flex-direction: column;
+  margin-right: 13rem;
+}
+
+.containerMap {
+  margin-right: 13rem;
+}
+
+.logo {
+  margin: 5rem 0 2rem;
+}
+
+.map {
+  margin-top: 5rem;
+}
+
+.map p {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.02em;
+}
+
+.mapText p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 1.6rem 0 1.6rem;
+  cursor: pointer;
+}
+
+.mapText p:hover {
+  color: #61e876;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+}
+
+.social img {
+  cursor: pointer;
+}
+
+.contact p {
+  margin-top: 5rem;
+}
+
+.contact p {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.02em;
+}
+
+.contactText p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 1.6rem 0 1.6rem;
+  cursor: pointer;
+}
+
+.contactText p:hover {
+  color: #61e876;
+}
