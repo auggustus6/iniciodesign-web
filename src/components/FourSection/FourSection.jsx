@@ -1,5 +1,5 @@
 import styles from "./FourSection.module.css";
-import design from "../../assets/teste2.svg";
+import design from "../../assets/design.svg";
 import developerApp from "../../assets/developerApp.svg";
 
 const FourSection = ({ text, paragraph }) => {
