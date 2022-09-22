@@ -14,7 +14,7 @@
 }
 
 .containerContent {
-  padding: 5rem 0 10rem;
+  padding: 10rem 0 10rem;
 }
 
 .content {
@@ -50,10 +50,18 @@
 .containerCard .image {
   margin-top: 10rem;
 }
+@media (max-width: 780px) {
+  .containerContent {
+    padding: 5rem 0 5rem;
+  }
+}
 
 @media (max-width: 600px) {
   .containerCard {
     flex-direction: column;
+  }
+  .containerContent {
+    padding-top: 5rem;
   }
   .containerCard .image {
     margin-top: 5rem;

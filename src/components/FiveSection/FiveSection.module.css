@@ -1,0 +1,66 @@
+:root {
+  --bgColor: #121214;
+}
+
+.bgContainer {
+  width: 100%;
+  background: var(--bgColor);
+}
+
+.container {
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.containerContent {
+  padding: 10rem 0 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentText h1 {
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  letter-spacing: 0.02rem;
+}
+
+.contentText p {
+  margin: 1.6rem 0 4rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.72);
+  max-width: 48rem;
+}
+
+@media (max-width: 780px) {
+  .containerContent {
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0 5rem;
+  }
+  .contentText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contentText h1 {
+    text-align: center;
+  }
+
+  .contentText p {
+    text-align: center;
+  }
+
+  .contentText button {
+    margin-bottom: 5rem;
+  }
+
+  .containerImg {
+    max-width: 40rem;
+  }
+}
