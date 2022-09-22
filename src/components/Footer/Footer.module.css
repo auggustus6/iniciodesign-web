@@ -86,3 +86,30 @@
 .contactText p:hover {
   color: #61e876;
 }
+
+@media (max-width: 780px) {
+  .containerMap {
+    margin-right: 9rem;
+  }
+  .containerSocial {
+    margin-right: 9rem;
+  }
+}
+
+@media (max-width: 545px) {
+  .containerMap {
+    margin-right: 5rem;
+  }
+  .containerSocial {
+    margin-right: 5rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .containerMap {
+    margin-right: 3rem;
+  }
+  .containerSocial {
+    margin-right: 3rem;
+  }
+}
