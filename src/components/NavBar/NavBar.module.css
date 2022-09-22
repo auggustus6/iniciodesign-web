@@ -5,6 +5,7 @@
   margin: 0 auto;
   flex-wrap: wrap;
   padding: 6rem;
+  align-items: center;
 }
 
 .list {
