@@ -1,10 +1,10 @@
 :root {
-  --bgColor: #121214;
+  --bgColorFirst: #121214;
 }
 
 .bgContainer {
   width: 100%;
-  background: var(--bgColor);
+  background: var(--bgColorFirst);
 }
 
 .container {
