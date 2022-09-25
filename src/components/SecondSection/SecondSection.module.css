@@ -51,9 +51,6 @@
   .content {
     flex-direction: column;
   }
-  .containerContent {
-    padding: 5rem 0 0;
-  }
   .containerText {
     display: flex;
     flex-direction: column;

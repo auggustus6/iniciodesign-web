@@ -3,6 +3,7 @@ import stylesButton from "../Button/Button.module.css";
 import Button from "../Button/Button";
 
 import { useState } from "react";
+import { links } from "../../data";
 
 function NavBar() {
   const [active, setActive] = useState(`${styles.navMenu}`);
@@ -24,27 +25,19 @@ function NavBar() {
       <a href="#" className={styles.navBrand}>
         Logo
       </a>
+
       <ul className={active}>
-        <li className={styles.navItem}>
-          <a href="#" className={styles.navLink}>
-            Home
-          </a>
-        </li>
-        <li className={styles.navItem}>
-          <a href="#" className={styles.navLink}>
-            Serviços
-          </a>
-        </li>
-        <li className={styles.navItem}>
-          <a href="#" className={styles.navLink}>
-            Sobre
-          </a>
-        </li>
-        <li className={styles.navItem}>
-          <a href="#" className={styles.navLink}>
-            Portfólio
-          </a>
-        </li>
+        {links.map((link) => (
+          <li
+            className={styles.navItem}
+            key={link.id}
+            onClick={() => setActive(`${styles.navMenu}`)}
+          >
+            <a href={link.url}>
+              {link.text}
+            </a>
+          </li>
+        ))}
         <li>
           <a href="#">
             <Button classname={stylesButton.btnPrimary}>Contato</Button>

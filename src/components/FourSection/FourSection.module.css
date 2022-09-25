@@ -52,7 +52,7 @@
 }
 @media (max-width: 780px) {
   .containerContent {
-    padding: 5rem 0 5rem;
+    padding: 10rem 0 5rem;
   }
 }
 
@@ -60,9 +60,7 @@
   .containerCard {
     flex-direction: column;
   }
-  .containerContent {
-    padding-top: 5rem;
-  }
+
   .containerCard .image {
     margin-top: 5rem;
   }
