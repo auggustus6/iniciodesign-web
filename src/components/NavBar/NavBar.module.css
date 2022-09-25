@@ -1,24 +1,7 @@
-*,
-*::after,
-*::before {
-  margin: 0;
-  box-sizing: border-box;
-}
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-}
-
-li {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
   color: rgb(204, 204, 204);
+  font-size: 1.6rem;
 }
 
 .nav {
@@ -61,6 +44,7 @@ a {
     position: fixed;
     top: 0;
     right: 0;
+    justify-content: space-between;
   }
   .navToggler {
     display: block;
@@ -77,12 +61,13 @@ a {
     background: #121214;
     flex-direction: column;
     transform: translateX(100%);
+    gap: 10rem;
   }
 }
 /* Active Class */
 .navActive {
   transform: translateX(0%);
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 /* Toggle Icon Animation */
