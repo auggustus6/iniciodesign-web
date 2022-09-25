@@ -62,7 +62,7 @@ a {
     background: #121214;
     flex-direction: column;
     transform: translateX(100%);
-    gap: 7rem;
+    gap: 5rem;
   }
 }
 /* Active Class */
