@@ -1,27 +1,104 @@
-.navBar {
-  max-width: 128rem;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  padding: 6rem;
-  align-items: center;
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
 }
 
-.list {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  gap: 5rem;
-}
-
-.item {
-  padding: 1rem;
+body {
   font-size: 1.6rem;
-  cursor: pointer;
-  font-weight: 500;
 }
 
-.item:hover {
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5rem 1rem 5rem 1rem;
+  background: #121214;
+}
+
+.navBrand {
+  text-transform: uppercase;
+}
+
+.navItem a:hover {
   color: #61e876;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.navToggler {
+  display: none;
+}
+.navToggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  .navToggler {
+    display: block;
+    cursor: pointer;
+  }
+  .navMenu {
+    position: fixed;
+    top: 9vh;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    height: 100vh;
+    width: 100vw;
+    background: #121214;
+    flex-direction: column;
+    transform: translateX(100%);
+  }
+}
+/* Active Class */
+.navActive {
+  transform: translateX(0%);
+  transition: 0.2s;
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+  position: fixed;
+}
+
+.toggle .line2 {
+  opacity: 0;
+  position: fixed;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-3px, -5px);
+  position: fixed;
 }

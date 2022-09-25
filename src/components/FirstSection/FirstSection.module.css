@@ -47,6 +47,12 @@
   color: rgba(255, 255, 255, 0.72);
 }
 
+@media (max-width: 768px) {
+  .content {
+    margin-top: 3rem;
+  }
+}
+
 @media (max-width: 980px) {
   .content {
     flex-direction: column;
@@ -73,6 +79,9 @@
   .containerText h1 {
     font-size: 2.8rem;
     line-height: 3.6rem;
+  }
+  .content {
+    margin-top: 13rem;
   }
   .containerContent {
     padding-top: 0;
