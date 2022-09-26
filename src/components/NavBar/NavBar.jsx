@@ -4,8 +4,17 @@ import Button from "../Button/Button";
 
 import { useState } from "react";
 import { links } from "../../data";
-
 function NavBar() {
+  function scrollToOnClick(event) {
+    event.preventDefault();
+    const element = event.target;
+    const id = element.getAttribute("href");
+    const toItem = document.querySelector(id).offsetTop;
+
+    window.scroll({
+      top: toItem - 30,
+    });
+  }
   const [active, setActive] = useState(`${styles.navMenu}`);
   const [icon, setIcon] = useState(`${styles.navToggler}`);
 
@@ -33,7 +42,7 @@ function NavBar() {
             key={link.id}
             onClick={() => setActive(`${styles.navMenu}`)}
           >
-            <a href={link.url}>
+            <a href={link.url} onClick={scrollToOnClick}>
               {link.text}
             </a>
           </li>

@@ -2,8 +2,19 @@ import styles from "./Footer.module.css";
 import facobook from "../../assets/facebook.svg";
 import instagram from "../../assets/instagram.svg";
 import linkedin from "../../assets/linkedin.svg";
+import { links } from "../../data";
 
 const Footer = () => {
+  function scrollToOnClick(event) {
+    event.preventDefault();
+    const element = event.target;
+    const id = element.getAttribute("href");
+    const toItem = document.querySelector(id).offsetTop;
+
+    window.scroll({
+      top: toItem - 30,
+    });
+  }
   return (
     <div className={styles.bgContainer}>
       <div className={styles.container}>
@@ -23,11 +34,20 @@ const Footer = () => {
               <p>Site Map</p>
             </div>
             <div className={styles.mapText}>
-              <p>Home</p>
+              <ul>
+                {links.map((link) => (
+                  <li className={styles.navItem} key={link.id}>
+                    <a href={link.url} onClick={scrollToOnClick}>
+                      {link.text}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              {/*               <p>Home</p>
               <p>Serviços</p>
               <p>Sobre</p>
               <p>Portfólio</p>
-              <p>Contato</p>
+              <p>Contato</p> */}
             </div>
           </div>
           <div className={styles.containerContact}>
@@ -35,7 +55,11 @@ const Footer = () => {
               <p>Contato</p>
             </div>
             <div className={styles.contactText}>
-              <p>carlos@email.com</p>
+              <ul>
+                <li>
+                  <a href="mailto:carlos@email.com">carlos@email.com</a>
+                </li>
+              </ul>
               <p>+55 00 0000000</p>
             </div>
           </div>

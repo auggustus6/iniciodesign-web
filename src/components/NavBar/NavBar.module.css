@@ -8,8 +8,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 5rem 1rem 5rem 1rem;
+  padding: 3rem 1rem 3rem 1rem;
   background: #121214;
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .navBrand {

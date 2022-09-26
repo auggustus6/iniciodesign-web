@@ -40,16 +40,20 @@
   letter-spacing: 0.02em;
 }
 
-.mapText p {
+.mapText li {
+  margin: 1.6rem 0 1.6rem;
+}
+
+.mapText li {
   font-size: 1.6rem;
   line-height: 2.4rem;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.72);
-  margin: 1.6rem 0 1.6rem;
+
   cursor: pointer;
 }
 
-.mapText p:hover {
+.mapText li a:hover {
   color: #61e876;
 }
 
@@ -63,21 +67,23 @@
 }
 
 .contact p {
-  margin-top: 5rem;
-}
-
-.contact p {
   font-size: 2rem;
+  margin-top: 5rem;
   line-height: 3.2rem;
   letter-spacing: 0.02em;
 }
 
+.contactText li {
+  margin: 1.6rem 0 1.6rem;
+}
+
+.contactText li a:hover {
+  color: #61e876;
+}
+
 .contactText p {
   font-size: 1.6rem;
-  line-height: 2.4rem;
-  letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.72);
-  margin: 1.6rem 0 1.6rem;
   cursor: pointer;
 }
 
