@@ -16,7 +16,7 @@ const FiveSection = ({ text, paragraph }) => {
             </Button>
           </div>
           <div className={styles.containerImg}>
-            <img src={personAndPhone} alt="" />
+            <img src={personAndPhone} alt="Imagem de uma pessoa ao lado de um smartphone" />
           </div>
         </div>
       </div>

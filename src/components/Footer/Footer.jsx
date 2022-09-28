@@ -43,11 +43,6 @@ const Footer = () => {
                   </li>
                 ))}
               </ul>
-              {/*               <p>Home</p>
-              <p>Serviços</p>
-              <p>Sobre</p>
-              <p>Portfólio</p>
-              <p>Contato</p> */}
             </div>
           </div>
           <div className={styles.containerContact}>

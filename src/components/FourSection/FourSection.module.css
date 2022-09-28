@@ -50,6 +50,7 @@
 .containerCard .image {
   margin-top: 10rem;
 }
+
 @media (max-width: 780px) {
   .containerContent {
     padding: 10rem 0 5rem;
@@ -60,7 +61,6 @@
   .containerCard {
     flex-direction: column;
   }
-
   .containerCard .image {
     margin-top: 5rem;
   }

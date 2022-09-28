@@ -1,4 +1,3 @@
-import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import FirstSection from "./components/FirstSection/FirstSection";
 import SecondSection from "./components/SecondSection/SecondSection";

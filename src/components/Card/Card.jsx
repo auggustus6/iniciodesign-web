@@ -3,7 +3,7 @@ import styles from "./Card.module.css";
 const Card = ({ img, text, paragraph }) => {
   return (
     <div className={styles.card}>
-      <img src={img} alt="" />
+      <img src={img} />
       <h3>{text}</h3>
       <p>{paragraph}</p>
     </div>

@@ -1,9 +1,9 @@
 import styles from "./NavBar.module.css";
 import stylesButton from "../Button/Button.module.css";
 import Button from "../Button/Button";
-
 import { useState } from "react";
 import { links } from "../../data";
+
 function NavBar() {
   function scrollToOnClick(event) {
     event.preventDefault();
@@ -15,6 +15,7 @@ function NavBar() {
       top: toItem - 30,
     });
   }
+
   const [active, setActive] = useState(`${styles.navMenu}`);
   const [icon, setIcon] = useState(`${styles.navToggler}`);
 
@@ -23,7 +24,6 @@ function NavBar() {
       setActive(`${styles.navMenu} ${styles.navActive}`);
     } else setActive(`${styles.navMenu}`);
 
-    // Icon Toggler
     if (icon === `${styles.navMenu}`) {
       setIcon(`${styles.navToggler} ${styles.toggle}`);
     } else setIcon(`${styles.navToggler}`);

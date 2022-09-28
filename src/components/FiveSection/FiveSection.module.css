@@ -47,19 +47,15 @@
     align-items: center;
     justify-content: center;
   }
-
   .contentText h1 {
     text-align: center;
   }
-
   .contentText p {
     text-align: center;
   }
-
   .contentText button {
     margin-bottom: 5rem;
   }
-
   .containerImg {
     max-width: 40rem;
   }

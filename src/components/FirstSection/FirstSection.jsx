@@ -1,7 +1,6 @@
 import Button from "../Button/Button";
 import styles from "./FirstSection.module.css";
 import stylesButton from "../Button/Button.module.css";
-
 import developer from "../../assets/developer.svg";
 
 const FirstSection = ({ text, paragraph }) => {
