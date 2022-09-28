@@ -1,7 +1,5 @@
 import PortDesk from "../PortDesck/PortDesk";
-import Slider from "../Slider/Slider";
 import styles from "./Portfolio.module.css";
-import { useState, useEffect } from "react";
 
 const Portfolio = () => {
   return (
