@@ -20,10 +20,32 @@
   justify-content: space-between;
 }
 
+.btnGreen {
+  padding: 2rem 2.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background: var(--btnColor);
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #121214;
+  max-width: 18rem;
+  margin-bottom: 4rem;
+}
+
+.btnGreen:hover {
+  opacity: 0.9;
+}
+
 .contentText h1 {
   font-size: 3.6rem;
   line-height: 4.8rem;
   letter-spacing: 0.02rem;
+}
+
+.contentText {
+  display: flex;
+  flex-direction: column;
 }
 
 .contentText p {

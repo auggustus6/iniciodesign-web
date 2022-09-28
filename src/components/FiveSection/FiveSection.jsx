@@ -1,6 +1,4 @@
 import styles from "./FiveSection.module.css";
-import stylesButton from "../Button/Button.module.css";
-import Button from "../Button/Button";
 import personAndPhone from "../../assets/personAndPhone.svg";
 
 const FiveSection = ({ text, paragraph }) => {
@@ -11,12 +9,16 @@ const FiveSection = ({ text, paragraph }) => {
           <div className={styles.contentText}>
             <h1>{text}</h1>
             <p>{paragraph}</p>
-            <Button classname={stylesButton.btnPrimaryLarge}>
+            <a className={styles.btnGreen} href="#portfolio">
               Entrar em contato
-            </Button>
+            </a>
           </div>
+
           <div className={styles.containerImg}>
-            <img src={personAndPhone} alt="Imagem de uma pessoa ao lado de um smartphone" />
+            <img
+              src={personAndPhone}
+              alt="Imagem de uma pessoa ao lado de um smartphone"
+            />
           </div>
         </div>
       </div>

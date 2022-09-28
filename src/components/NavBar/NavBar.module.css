@@ -28,7 +28,6 @@ a {
   cursor: pointer;
   transition: transform 0.3s ease;
   background: var(--btn);
-
   border: none;
 }
 

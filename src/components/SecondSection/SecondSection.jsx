@@ -1,7 +1,5 @@
 import styles from "./SecondSection.module.css";
-import stylesButton from "../Button/Button.module.css";
 import group from "../../assets/group.svg";
-import Button from "../Button/Button";
 
 const SecondSection = ({ text, paragraph }) => {
   return (
