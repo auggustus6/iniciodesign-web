@@ -1,6 +1,4 @@
-import Button from "../Button/Button";
 import styles from "./FirstSection.module.css";
-import stylesButton from "../Button/Button.module.css";
 import developer from "../../assets/developer.svg";
 
 const FirstSection = ({ text, paragraph }) => {
@@ -13,12 +11,14 @@ const FirstSection = ({ text, paragraph }) => {
               <h1>{text}</h1>
               <p>{paragraph}</p>
               <div className={styles.containerButtons}>
-                <Button classname={stylesButton.btnPrimaryOutline}>
-                  Meus Serviços
-                </Button>
-                <Button classname={stylesButton.btnPrimaryLarge}>
-                  Meu Portfólio
-                </Button>
+                <ul>
+                  <li className={styles.btnBlack}>
+                    <a href="#services">Meus Serviços</a>
+                  </li>
+                  <li className={styles.btnGreen}>
+                    <a href="#portfolio">Meu Portfólio</a>
+                  </li>
+                </ul>
               </div>
             </div>
             <img src={developer} alt="Imagem de uma pessoa no computador" />

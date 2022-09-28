@@ -33,6 +33,22 @@
   margin-top: 4rem;
 }
 
+.containerButtons .btnGreen {
+  padding: 2rem 2.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background: var(--btnColor);
+  font-size: 1.6rem;
+  font-weight: 500;
+  background: var(--btnColor);
+  color: #121214;
+}
+
+.containerButtons .btnGreen:hover {
+  opacity: 0.9;
+}
+
 .containerText h1 {
   font-size: 3.6rem;
   line-height: 4.8rem;

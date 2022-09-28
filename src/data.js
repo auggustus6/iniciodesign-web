@@ -19,4 +19,9 @@ export const links = [
     text: "Portfólio",
     url: "#portfolio",
   },
+  {
+    id: 5,
+    text: "Contato",
+    url: "#contact",
+  },
 ];

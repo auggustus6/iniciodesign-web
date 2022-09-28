@@ -1,5 +1,6 @@
 :root {
   --bgColorFirst: #121214;
+  --btnColor: #61e876;
 }
 
 .bgContainer {
@@ -31,6 +32,48 @@
   display: flex;
   gap: 2rem;
   margin-top: 4rem;
+}
+
+.containerButtons ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.containerButtons .btnBlack {
+  border-radius: 8px;
+  padding: 2rem 2.4rem;
+  background: #000;
+  cursor: pointer;
+  border: 1px solid var(--btnColor);
+}
+
+.containerButtons .btnBlack a {
+  color: var(--btnColor);
+}
+
+.containerButtons .btnGreen {
+  padding: 2rem 2.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background: var(--btnColor);
+}
+
+.containerButtons .btnGreen a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  background: var(--btnColor);
+  color: #121214;
+}
+
+.containerButtons .btnGreen:hover {
+  opacity: 0.9;
+}
+
+.containerButtons .btnBlack:hover {
+  opacity: 0.9;
 }
 
 .containerText h1 {

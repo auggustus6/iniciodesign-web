@@ -1,3 +1,7 @@
+:root {
+  --btn: #61e876;
+}
+
 a {
   text-decoration: none;
   color: rgb(204, 204, 204);
@@ -14,6 +18,26 @@ a {
   right: 0;
   position: fixed;
   width: 100%;
+}
+
+.nav .navMenu li:last-child {
+  padding: 1.2rem 2.4rem;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background: var(--btn);
+
+  border: none;
+}
+
+.nav .navMenu li:last-child a {
+  color: #121214;
+}
+
+.nav .navMenu li:last-child:hover {
+  opacity: 0.9;
 }
 
 .navBrand {
@@ -48,7 +72,6 @@ a {
     display: none;
   }
   .nav {
-    
     width: 100%;
     position: fixed;
     top: 0;

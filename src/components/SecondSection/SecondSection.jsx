@@ -17,9 +17,9 @@ const SecondSection = ({ text, paragraph }) => {
               <h1>{text}</h1>
               <p>{paragraph}</p>
               <div className={styles.containerButtons}>
-                <Button classname={stylesButton.btnPrimaryLarge}>
+                <a className={styles.btnGreen} href="#portfolio">
                   Ver Portfólio
-                </Button>
+                </a>
               </div>
             </div>
           </div>

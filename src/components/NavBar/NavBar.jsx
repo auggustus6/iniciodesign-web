@@ -1,6 +1,4 @@
 import styles from "./NavBar.module.css";
-import stylesButton from "../Button/Button.module.css";
-import Button from "../Button/Button";
 import { useState } from "react";
 import { links } from "../../data";
 
@@ -47,11 +45,9 @@ function NavBar() {
             </a>
           </li>
         ))}
-        <li>
-          <a href="#">
-            <Button classname={stylesButton.btnPrimary}>Contato</Button>
-          </a>
-        </li>
+{/*         <li className={styles.btn}>
+          <a href="#contact">Contato</a>
+        </li> */}
       </ul>
       <div onClick={navToggle} className={icon}>
         <div className={styles.line1}></div>
