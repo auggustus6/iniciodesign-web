@@ -23,4 +23,5 @@
   line-height: 2.4rem;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.72);
+  max-width: 32rem;
 }
