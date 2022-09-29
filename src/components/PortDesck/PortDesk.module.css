@@ -42,3 +42,21 @@
 .container .buttons button:first-child img {
   transform: rotate(180deg);
 }
+
+@media (max-width: 820px) {
+  .container {
+    max-width: 78vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 84vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 79vw;
+  }
+}

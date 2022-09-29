@@ -67,9 +67,6 @@ a {
 }
 
 @media (max-width: 768px) {
-  button {
-    display: none;
-  }
   .nav {
     width: 100%;
     position: fixed;

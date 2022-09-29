@@ -42,9 +42,14 @@
 
 .containerCard {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  justify-content: space-between;
+}
+
+.containerCircle {
+  display: flex;
+  flex-direction: column;
+  gap: 13rem;
 }
 
 .containerCard .image {
