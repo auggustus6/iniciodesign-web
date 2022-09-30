@@ -8,11 +8,14 @@ import img6 from "../../assets/img6.svg";
 import img7 from "../../assets/img6.svg";
 import img8 from "../../assets/img6.svg";
 import btn from "../../assets/btn.svg";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import Modal from "../Modal/Modal";
 
 const data = [img1, img2, img3, img4, img5, img6, img7, img8];
 
 const PortDesk = () => {
+  const [openModal, setOpenModal] = useState(false);
+
   const carousel = useRef(null);
   const handleLeftClick = (event) => {
     event.preventDefault();
@@ -30,7 +33,7 @@ const PortDesk = () => {
         {data.map((data, index) => (
           <div className={styles.item} key={index}>
             <div className={styles.image}>
-              <img src={data} />
+              <img onClick={() => setOpenModal(true)} src={data} />
             </div>
           </div>
         ))}
@@ -43,6 +46,7 @@ const PortDesk = () => {
           <img src={btn} alt="Sinal maior que" />
         </button>
       </div>
+      <Modal open={openModal} onClose={() => setOpenModal(false)} />
     </div>
   );
 };

@@ -6,6 +6,8 @@ import FourSection from "./components/FourSection/FourSection";
 import FiveSection from "./components/FiveSection/FiveSection";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from "./components/Footer/Footer";
+import wpp from "./assets/wpp.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -48,6 +50,12 @@ function App() {
         <section id="contact">
           <Footer />
         </section>
+        <a
+          href="http://web.whatsapp.com/send?phone=5517991821933"
+          target="_blank"
+        >
+          <img src={wpp} alt="" />
+        </a>
       </main>
     </>
   );
