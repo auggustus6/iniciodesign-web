@@ -45,9 +45,6 @@ function NavBar() {
             </a>
           </li>
         ))}
-{/*         <li className={styles.btn}>
-          <a href="#contact">Contato</a>
-        </li> */}
       </ul>
       <div onClick={navToggle} className={icon}>
         <div className={styles.line1}></div>

@@ -20,7 +20,7 @@ const FourSection = ({ text, paragraph }) => {
                   pp="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
                 />
               </div>
-              <div>
+              <div className={styles.rigth}>
                 <Circle
                   tt="Amet minim"
                   pp="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
