@@ -11,13 +11,24 @@
 }
 
 .modalContainer {
-  height: 85%;
-  width: 85%;
+  height: 90%;
+  width: 90%;
   background: #fff;
   border-radius: 8px;
   display: flex;
-  justify-content: space-between;
   padding: 2rem;
+  position: relative;
+  justify-content: space-around;
+}
+
+.modalRigth {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.modalContainer img {
+  border-radius: 8px;
 }
 
 .modalContainer .content h1 {
@@ -38,4 +49,13 @@
   color: #000;
   margin: 0;
   font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .modalContainer {
+    flex-direction: column;
+  }
+  .modalContainer img {
+    height: 60%;
+  }
 }
