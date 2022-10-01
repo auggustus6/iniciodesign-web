@@ -8,11 +8,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 9999;
 }
 
 .modalContainer {
-  height: 90%;
   width: 90%;
+  height: 90%;
   background: #fff;
   border-radius: 8px;
   display: flex;
