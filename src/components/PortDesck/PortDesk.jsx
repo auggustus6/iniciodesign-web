@@ -5,7 +5,6 @@ import img3 from "../../assets/img3.svg";
 import img4 from "../../assets/img4.svg";
 import img5 from "../../assets/img5.svg";
 import img6 from "../../assets/img6.svg";
-import p1 from "../../assets/p1.png";
 import btn from "../../assets/btn.svg";
 import { useRef, useState } from "react";
 import Modal from "../Modal/Modal";
