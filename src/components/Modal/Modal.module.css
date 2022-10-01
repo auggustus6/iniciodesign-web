@@ -19,7 +19,6 @@
   display: flex;
   padding: 2rem;
   position: relative;
-  justify-content: space-around;
 }
 
 .modalRigth {
@@ -38,6 +37,7 @@
 
 .content {
   text-align: center;
+  margin: 0 auto;
 }
 
 .modalContainer .content h3 {
