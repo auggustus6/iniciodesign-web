@@ -1,6 +1,7 @@
 .container {
-  max-width: 50vw;
+  max-width: 100%;
 }
+
 .container .carousel {
   display: flex;
   overflow-x: auto;
@@ -62,5 +63,8 @@
   }
   .container .carousel .item {
     width: 17rem;
+  }
+  .container .buttons button img {
+    display: none;
   }
 }

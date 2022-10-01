@@ -5,6 +5,8 @@ import img3 from "../../assets/img3.svg";
 import img4 from "../../assets/img4.svg";
 import img5 from "../../assets/img5.svg";
 import img6 from "../../assets/img6.svg";
+import img7 from "../../assets/img7.svg";
+import img8 from "../../assets/img8.svg";
 import btn from "../../assets/btn.svg";
 import { useRef, useState } from "react";
 import Modal from "../Modal/Modal";
@@ -43,6 +45,18 @@ const dataImgs = [
   {
     id: 6,
     img: img6,
+    description: "Descrição 6",
+    content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    id: 7,
+    img: img7,
+    description: "Descrição 6",
+    content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    id: 8,
+    img: img8,
     description: "Descrição 6",
     content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
   },

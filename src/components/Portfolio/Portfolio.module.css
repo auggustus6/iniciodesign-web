@@ -7,10 +7,6 @@
   background: var(--bgColor);
 }
 
-.container {
-  padding: 0 1rem;
-}
-
 .containerContent {
   padding: 10rem 0 10rem;
   display: flex;
@@ -35,7 +31,6 @@
   color: rgba(255, 255, 255, 0.72);
   margin-bottom: 3rem;
 }
-
 
 @media (max-width: 750px) {
   .containerContent p {
