@@ -17,10 +17,15 @@
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
+  padding: 2rem;
 }
 
-.modalContainer .content h1, p {
+.modalContainer .content h1 {
   color: #000;
+}
+
+.content {
+  text-align: center;
 }
 
 .modalContainer .content h3 {
