@@ -50,7 +50,7 @@ function App() {
         <section id="contact">
           <Footer />
         </section>
-        <a
+        <a className="wpp"
           href="http://web.whatsapp.com/send?phone=5517991821933"
           target="_blank"
         >

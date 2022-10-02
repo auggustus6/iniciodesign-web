@@ -69,7 +69,6 @@ a {
 
 @media (max-width: 768px) {
   .nav {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,6 +78,7 @@ a {
     cursor: pointer;
   }
   .navMenu {
+    left: 0;
     position: fixed;
     top: 7vh;
     justify-content: flex-start;

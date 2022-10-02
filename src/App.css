@@ -1,0 +1,10 @@
+main {
+  position: relative;
+} 
+
+main .wpp {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 3rem;
+}

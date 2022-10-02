@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5rem;
+  gap: 1rem;
   margin-bottom: 1rem;
 }
 .container .buttons button {
