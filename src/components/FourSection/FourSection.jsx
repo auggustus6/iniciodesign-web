@@ -1,7 +1,7 @@
 import styles from "./FourSection.module.css";
-import design from "../../assets/design.svg";
 import developerApp from "../../assets/developerApp.svg";
 import Circle from "../Circle/Circle";
+import { i18next } from "../../translate/i18n";
 
 const FourSection = ({ text, paragraph }) => {
   return (
@@ -16,20 +16,20 @@ const FourSection = ({ text, paragraph }) => {
             <div className={styles.containerCircle}>
               <div>
                 <Circle
-                  tt="Amet minim"
-                  pp="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+                  text={i18next.t("titles.fourTitleCircle")}
+                  paragraph={i18next.t("paragraphs.fourParagraphCircle")}
                 />
               </div>
               <div className={styles.rigth}>
                 <Circle
-                  tt="Amet minim"
-                  pp="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+                  text={i18next.t("titles.fourTitleCircle")}
+                  paragraph={i18next.t("paragraphs.fourParagraphCircle")}
                 />
               </div>
               <div>
                 <Circle
-                  tt="Amet minim"
-                  pp="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+                  text={i18next.t("titles.fourTitleCircle")}
+                  paragraph={i18next.t("paragraphs.fourParagraphCircle")}
                 />
               </div>
             </div>

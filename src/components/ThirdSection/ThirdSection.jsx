@@ -3,6 +3,7 @@ import styles from "./ThirdSection.module.css";
 import pen from "../../assets/pen.svg";
 import code from "../../assets/code.svg";
 import smartphone from "../../assets/smartphone.svg";
+import { i18next } from "../../translate/i18n";
 
 const ThirdSection = ({ text, paragraph }) => {
   return (
@@ -16,33 +17,33 @@ const ThirdSection = ({ text, paragraph }) => {
           <div className={styles.containerCard}>
             <Card
               img={pen}
-              text="Amet minim"
-              paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+              text={i18next.t("cards.titlesCard")}
+              paragraph={i18next.t("paragraphsCard.paragraphCard")}
             />
             <Card
               img={code}
-              text="Amet minim"
-              paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+              text={i18next.t("cards.titlesCard")}
+              paragraph={i18next.t("paragraphsCard.paragraphCard")}
             />
             <Card
               img={smartphone}
-              text="Amet minim"
-              paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+              text={i18next.t("cards.titlesCard")}
+              paragraph={i18next.t("paragraphsCard.paragraphCard")}
             />
             <Card
               img={pen}
-              text="Amet minim"
-              paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+              text={i18next.t("cards.titlesCard")}
+              paragraph={i18next.t("paragraphsCard.paragraphCard")}
             />
             <Card
               img={code}
-              text="Amet minim"
-              paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+              text={i18next.t("cards.titlesCard")}
+              paragraph={i18next.t("paragraphsCard.paragraphCard")}
             />
             <Card
               img={smartphone}
-              text="Amet minim"
-              paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+              text={i18next.t("cards.titlesCard")}
+              paragraph={i18next.t("paragraphsCard.paragraphCard")}
             />
           </div>
         </div>

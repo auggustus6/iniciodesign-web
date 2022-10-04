@@ -35,14 +35,14 @@ function App() {
         </section>
         <section id="about">
           <FourSection
-            text="Amet minim mollit non deserunt!"
-            paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+            text={i18next.t("titles.fourTitle")}
+            paragraph={i18next.t("paragraphs.fourParagraph")}
           />
         </section>
         <section>
           <FiveSection
-            text="Amet minim mollit non deserunt!"
-            paragraph="Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi."
+            text={i18next.t("titles.fiveTitle")}
+            paragraph={i18next.t("paragraphs.fiveParagraph")}
           />
         </section>
         <section id="portfolio">

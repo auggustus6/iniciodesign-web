@@ -1,5 +1,6 @@
 import styles from "./FiveSection.module.css";
 import personAndPhone from "../../assets/personAndPhone.svg";
+import { i18next } from "../../translate/i18n";
 
 const FiveSection = ({ text, paragraph }) => {
   return (
@@ -10,7 +11,7 @@ const FiveSection = ({ text, paragraph }) => {
             <h1>{text}</h1>
             <p>{paragraph}</p>
             <a className={styles.btnGreen} href="#portfolio">
-              Entrar em contato
+              {i18next.t("buttons.contact")}
             </a>
           </div>
 

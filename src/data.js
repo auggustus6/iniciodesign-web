@@ -1,27 +1,29 @@
+import { i18next } from "./translate/i18n";
+
 export const links = [
   {
     id: 1,
-    text: "Home",
+    text: `${i18next.t("links.home")}`,
     url: "#home",
   },
   {
     id: 2,
-    text: "Serviços",
+    text: `${i18next.t("links.services")}`,
     url: "#services",
   },
   {
     id: 3,
-    text: "Sobre",
+    text: `${i18next.t("links.about")}`,
     url: "#about",
   },
   {
     id: 4,
-    text: "Portfólio",
+    text: `${i18next.t("links.port")}`,
     url: "#portfolio",
   },
   {
     id: 5,
-    text: "Contato",
+    text: `${i18next.t("links.contact")}`,
     url: "#contact",
   },
 ];

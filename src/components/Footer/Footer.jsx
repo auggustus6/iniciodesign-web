@@ -3,6 +3,7 @@ import facobook from "../../assets/facebook.svg";
 import instagram from "../../assets/instagram.svg";
 import linkedin from "../../assets/linkedin.svg";
 import { links } from "../../data";
+import { i18next } from "../../translate/i18n";
 
 const Footer = () => {
   function scrollToOnClick(event) {
@@ -47,7 +48,7 @@ const Footer = () => {
           </div>
           <div className={styles.containerContact}>
             <div className={styles.contact}>
-              <p>Contato</p>
+              <p>{i18next.t("footer.footerContact")}</p>
             </div>
             <div className={styles.contactText}>
               <ul>

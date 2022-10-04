@@ -1,9 +1,18 @@
 import styles from "./NavBar.module.css";
 import { useState } from "react";
 import { links } from "../../data";
+import { i18next } from "../../translate/i18n";
+
+const I18N_STORAGE_KEY = "i18nextLng";
 
 function NavBar() {
-  function scrollToOnClick(event) {
+  const [language] = useState(localStorage.getItem(I18N_STORAGE_KEY));
+  const handleSelectChange = (event) => {
+    localStorage.setItem(I18N_STORAGE_KEY, event.target.value);
+    window.location = window.location;
+  };
+
+  const scrollToOnClick = (event) => {
     event.preventDefault();
     const element = event.target;
     const id = element.getAttribute("href");
@@ -12,7 +21,7 @@ function NavBar() {
     window.scroll({
       top: toItem - 30,
     });
-  }
+  };
 
   const [active, setActive] = useState(`${styles.navMenu}`);
   const [icon, setIcon] = useState(`${styles.navToggler}`);
@@ -45,6 +54,10 @@ function NavBar() {
             </a>
           </li>
         ))}
+        <select onChange={handleSelectChange} value={language}>
+          <option value="pt-BR">PT</option>
+          <option value="en-US">EN</option>
+        </select>
       </ul>
       <div onClick={navToggle} className={icon}>
         <div className={styles.line1}></div>
