@@ -1,5 +1,6 @@
 import styles from "./SecondSection.module.css";
 import group from "../../assets/group.svg";
+import { i18next } from "../../translate/i18n";
 
 const SecondSection = ({ text, paragraph }) => {
   return (
@@ -16,7 +17,7 @@ const SecondSection = ({ text, paragraph }) => {
               <p>{paragraph}</p>
               <div className={styles.containerButtons}>
                 <a className={styles.btnGreen} href="#portfolio">
-                  Ver Portfólio
+                  {i18next.t("buttons.viewPort")}
                 </a>
               </div>
             </div>

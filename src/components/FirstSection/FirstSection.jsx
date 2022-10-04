@@ -1,5 +1,6 @@
 import styles from "./FirstSection.module.css";
 import developer from "../../assets/developer.svg";
+import { i18next } from "../../translate/i18n";
 
 const FirstSection = ({ text, paragraph }) => {
   return (
@@ -13,10 +14,10 @@ const FirstSection = ({ text, paragraph }) => {
               <div className={styles.containerButtons}>
                 <ul>
                   <li className={styles.btnBlack}>
-                    <a href="#services">Meus Serviços</a>
+                    <a href="#services">{i18next.t("buttons.myServices")}</a>
                   </li>
                   <li className={styles.btnGreen}>
-                    <a href="#portfolio">Meu Portfólio</a>
+                    <a href="#portfolio">{i18next.t("buttons.myPort")}</a>
                   </li>
                 </ul>
               </div>

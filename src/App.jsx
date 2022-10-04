@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from "./components/Footer/Footer";
 import wpp from "./assets/wpp.svg";
 import "./App.css";
+import { i18next } from "./translate/i18n";
 
 function App() {
   return (
@@ -16,20 +17,20 @@ function App() {
         <NavBar />
         <section>
           <FirstSection
-            text="Amet minim mollit non deserunt ullamco est sit aliqua dolor."
-            paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+            text={i18next.t("titles.firstTitle")}
+            paragraph={i18next.t("paragraphs.firtParagraph")}
           />
         </section>
         <section>
           <SecondSection
-            text="Amet minim mollit non deserunt ullamco est sit aliqua dolor."
-            paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+            text={i18next.t("titles.secondTitle")}
+            paragraph={i18next.t("paragraphs.secondParagraph")}
           />
         </section>
         <section id="services">
           <ThirdSection
-            text="Amet minim mollit non deserunt!"
-            paragraph="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+            text={i18next.t("titles.thirdTitle")}
+            paragraph={i18next.t("paragraphs.thirdParagraph")}
           />
         </section>
         <section id="about">
@@ -50,7 +51,8 @@ function App() {
         <section id="contact">
           <Footer />
         </section>
-        <a className="wpp"
+        <a
+          className="wpp"
           href="http://web.whatsapp.com/send?phone=5517991821933"
           target="_blank"
         >
