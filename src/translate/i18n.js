@@ -9,6 +9,10 @@ i18next.use(LanguageDetector).init({
   fallbackLng: "en-US",
   ns: ["translations"],
   resources: messages,
+  detection: {
+    order: ["path", "localStorage", "htmlTag", "cookie"],
+    caches: ["localStorage", "cookie"], // cache user language on
+  },
 });
 
 export { i18next };

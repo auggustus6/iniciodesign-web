@@ -9,8 +9,14 @@ import Footer from "./components/Footer/Footer";
 import wpp from "./assets/wpp.svg";
 import "./App.css";
 import { i18next } from "./translate/i18n";
+import { useEffect } from "react";
+
+export const I18N_STORAGE_KEY = "i18nextLng";
+
 
 function App() {
+
+
   return (
     <>
       <main id="home">
