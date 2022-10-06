@@ -6,7 +6,7 @@ import { messages } from "./languages";
 i18next.use(LanguageDetector).init({
   debug: false,
   defaultNS: ["translations"],
-  fallbackLng: "en-US",
+  fallbackLng: "pt-BR",
   ns: ["translations"],
   resources: messages,
   detection: {

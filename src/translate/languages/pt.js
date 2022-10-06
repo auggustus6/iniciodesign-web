@@ -51,6 +51,16 @@ const messages = {
       footer: {
         footerContact: "Contato",
       },
+      modalTitles: {
+        firstTitleModal: "ChatBot Multifórmulas RP",
+      },
+      modalParagraphs: {
+        firstParagraph:
+          "Sistema Chat Bot desenvolvido para indústria farmaceutica multfórmulas. O sistema consiste em no atendimento dos cliente whatsapp via plataforma",
+      },
+      seeMore: {
+        see: "Veja mais ➔",
+      },
     },
   },
 };

@@ -3,18 +3,17 @@ import img1 from "../../assets/multi.png";
 import img2 from "../../assets/keff.png";
 import img3 from "../../assets/contane.png";
 import img4 from "../../assets/savepik.png";
-
 import btn from "../../assets/btn.svg";
 import { useRef, useState } from "react";
 import Modal from "../Modal/Modal";
+import { i18next } from "../../translate/i18n";
 
 const dataImgs = [
   {
     id: 1,
     img: img1,
-    description: "ChatBot Multfórmulas RP",
-    content:
-      "Sistema Chat Bot desenvolvido para indústria farmaceutica multfórmulas. O sistema consiste em no atendimento dos cliente whatsapp via plataforma",
+    description: `${i18next.t("modalTitles.firstTitleModal")}`,
+    content: `${i18next.t("modalParagraphs.firstParagraph")}`,
   },
   {
     id: 2,
