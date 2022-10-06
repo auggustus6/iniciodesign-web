@@ -22,12 +22,16 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 4rem;
+  z-index: 9999;
 }
 
-.modalRigth {
+.modalRight {
   position: absolute;
   top: 0;
   right: 0;
+  padding: 3rem 3rem 0 0;
+  cursor: pointer;
 }
 
 .modalContainer img {
@@ -40,13 +44,23 @@
 
 .content {
   text-align: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .modalContainer .content h3 {
-  color: #fff;
+  font-size: 1.6rem;
+  text-align: left;
+  max-width: 60rem;
+  margin: 5rem 0 10rem;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.modalContainer .content a {
+  padding-left: 2rem;
+  font-weight: bold;
 }
 
 .overlay .modalContainer .modalRigth .closeBtn {
@@ -60,8 +74,23 @@
 @media (max-width: 768px) {
   .modalContainer {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .modalContainer img {
-    height: 60%;
+    height: 50%;
+  }
+  .content {
+    align-items: center;
+  }
+  .modalContainer .content h3 {
+    text-align: center;
+    margin: 5rem 0 5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .modalContainer img {
+    height: 35%;
   }
 }

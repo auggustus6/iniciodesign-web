@@ -3,6 +3,7 @@ main {
 }
 
 .wrapper {
+  margin-bottom: 1rem;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -12,8 +13,8 @@ main {
 }
 
 .circle {
-  width: 180px;
-  height: 180px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background: rgb(0, 247, 43);
   background: linear-gradient(
@@ -29,18 +30,18 @@ main {
   box-shadow: inset -5px 4px 8px rgba(8, 110, 28, 0.7),
     inset -2px 3px 9px rgba(8, 110, 28, 0.6);
   border: 10px solid #00d520;
-  z-index: 9999;
+  z-index: 1;
 }
 
 .circle img {
-  width: 80px;
-  height: 80px;
-  z-index: 9999;
+  width: 56px;
+  height: 56px;
+  z-index: 1;
 }
 
 .retangle {
-  width: 360px;
-  height: 100px;
+  width: 260px;
+  height: 70px;
   background: rgb(0, 247, 43);
   background: linear-gradient(
     90deg,
@@ -49,7 +50,7 @@ main {
     rgba(1, 199, 21, 1) 100%
   );
   position: relative;
-  left: -65px;
+  left: -40px;
   transform: skew(-40deg);
   display: flex;
   align-items: center;
@@ -66,6 +67,28 @@ main {
   color: white;
 }
 
-.text p {
-  line-height: 26px;
+@media (max-width: 500px) {
+  .circle {
+    width: 50px;
+    height: 50px;
+  }
+  .circle img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .retangle {
+    width: 160px;
+    height: 50px;
+    left: -21px;
+    bottom: 2px;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+
+  .text span {
+    font-size: 1rem;
+  }
 }

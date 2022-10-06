@@ -57,16 +57,16 @@ function App() {
         <a
           href="http://web.whatsapp.com/send?phone=5517991821933"
           target="_blank"
-          class="wrapper"
+          className="wrapper"
         >
-          <div class="circle">
+          <div className="circle">
             <img
               src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png"
               alt="Icon"
             />
           </div>
-          <div class="retangle">
-            <div class="text">
+          <div className="retangle">
+            <div className="text">
               <p>Vamos tomar um café ?</p>
               <span>(18) 99621-3344</span>
             </div>
