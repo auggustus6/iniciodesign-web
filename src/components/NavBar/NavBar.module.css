@@ -47,8 +47,8 @@ a {
   opacity: 0.9;
 }
 
-.navBrand {
-  text-transform: uppercase;
+.navBrand img {
+  max-width: 5rem;
 }
 
 .navItem a:hover {
@@ -87,7 +87,7 @@ a {
   .navMenu {
     left: 0;
     position: fixed;
-    top: 7vh;
+    top: 8vh;
     justify-content: flex-start;
     height: 100vh;
     width: 100%;

@@ -30,6 +30,10 @@
   margin: 5rem 0 2rem;
 }
 
+.logo img {
+  max-width: 5rem;
+}
+
 .map {
   margin-top: 5rem;
 }

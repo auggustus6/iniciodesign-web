@@ -2,6 +2,7 @@ import styles from "./NavBar.module.css";
 import { useEffect, useState } from "react";
 import { links } from "../../data";
 import { I18N_STORAGE_KEY } from "../../App";
+import logo from "../../assets/logo.png";
 
 function NavBar() {
   const [language, setLanguage] = useState(
@@ -51,7 +52,7 @@ function NavBar() {
   return (
     <nav className={styles.nav}>
       <a href="#" className={styles.navBrand}>
-        Logo
+        <img src={logo} alt="Imagem logo da página" />
       </a>
 
       <ul className={active}>
