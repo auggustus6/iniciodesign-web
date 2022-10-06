@@ -68,7 +68,7 @@ function App() {
           <div className="retangle">
             <div className="text">
               <p>Vamos tomar um café ?</p>
-              <span>(18) 99621-3344</span>
+              <span>+55 (17) 991821933</span>
             </div>
           </div>
         </a>
