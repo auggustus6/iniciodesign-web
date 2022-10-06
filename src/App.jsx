@@ -13,10 +13,7 @@ import { useEffect } from "react";
 
 export const I18N_STORAGE_KEY = "i18nextLng";
 
-
 function App() {
-
-
   return (
     <>
       <main id="home">
@@ -58,11 +55,22 @@ function App() {
           <Footer />
         </section>
         <a
-          className="wpp"
           href="http://web.whatsapp.com/send?phone=5517991821933"
           target="_blank"
+          class="wrapper"
         >
-          <img src={wpp} alt="" />
+          <div class="circle">
+            <img
+              src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png"
+              alt="Icon"
+            />
+          </div>
+          <div class="retangle">
+            <div class="text">
+              <p>Vamos tomar um café ?</p>
+              <span>(18) 99621-3344</span>
+            </div>
+          </div>
         </a>
       </main>
     </>

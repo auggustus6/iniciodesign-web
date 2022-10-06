@@ -14,11 +14,14 @@
 .modalContainer {
   width: 90%;
   height: 90%;
-  background: #fff;
+  background: #080b30;
   border-radius: 8px;
   display: flex;
   padding: 2rem;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .modalRigth {
@@ -32,22 +35,24 @@
 }
 
 .modalContainer .content h1 {
-  color: #000;
+  color: #61e876;
 }
 
 .content {
   text-align: center;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .modalContainer .content h3 {
-  color: #000;
+  color: #fff;
 }
 
 .overlay .modalContainer .modalRigth .closeBtn {
   padding: 1rem 2rem;
   cursor: pointer;
-  color: #000;
+  color: #fff;
   margin: 0;
   font-size: 2rem;
 }

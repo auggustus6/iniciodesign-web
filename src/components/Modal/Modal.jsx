@@ -9,6 +9,7 @@ const Modal = ({ open, onClose, description, content, id, img }) => {
         <div className={styles.content}>
           <h1>{description}</h1>
           <h3>{content}</h3>
+          <a href="">Ver mais </a>
         </div>
         <div className={styles.modalRigth}>
           <p onClick={onClose} className={styles.closeBtn}>

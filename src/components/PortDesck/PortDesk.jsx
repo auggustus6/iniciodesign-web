@@ -1,12 +1,13 @@
 import styles from "./PortDesk.module.css";
-import img1 from "../../assets/img1.svg";
-import img2 from "../../assets/img2.svg";
+import img1 from "../../assets/multi.png";
+/* import img2 from "../../assets/img2.svg";
 import img3 from "../../assets/img3.svg";
 import img4 from "../../assets/img4.svg";
 import img5 from "../../assets/img5.svg";
 import img6 from "../../assets/img6.svg";
 import img7 from "../../assets/img7.svg";
 import img8 from "../../assets/img8.svg";
+*/
 import btn from "../../assets/btn.svg";
 import { useRef, useState } from "react";
 import Modal from "../Modal/Modal";
@@ -20,43 +21,43 @@ const dataImgs = [
   },
   {
     id: 2,
-    img: img2,
+    img: img1,
     description: "Descrição 2",
     content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     id: 3,
-    img: img3,
+    img: img1,
     description: "Descrição 3",
     content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     id: 4,
-    img: img4,
+    img: img1,
     description: "Descrição 4",
     content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     id: 5,
-    img: img5,
+    img: img1,
     description: "Descrição 5",
     content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     id: 6,
-    img: img6,
+    img: img1,
     description: "Descrição 6",
     content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     id: 7,
-    img: img7,
+    img: img1,
     description: "Descrição 6",
     content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     id: 8,
-    img: img8,
+    img: img1,
     description: "Descrição 6",
     content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
   },

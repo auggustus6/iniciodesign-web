@@ -1,28 +1,27 @@
 import styles from "./NavBar.module.css";
 import { useEffect, useState } from "react";
 import { links } from "../../data";
-import { i18next } from "../../translate/i18n";
 import { I18N_STORAGE_KEY } from "../../App";
 
 function NavBar() {
-  const [language, setLanguage] = useState(localStorage.getItem(I18N_STORAGE_KEY));
+  const [language, setLanguage] = useState(
+    localStorage.getItem(I18N_STORAGE_KEY)
+  );
   const handleSelectChange = (event) => {
     localStorage.setItem(I18N_STORAGE_KEY, event.target.value);
     window.location = window.location;
-
-    window.location.replace(`/${event.target.value == 'en-US' ? 'en' : ''}`)
+    window.location.replace(`/${event.target.value == "en-US" ? "en" : ""}`);
   };
 
   useEffect(() => {
     const url = window.location.pathname;
 
     if (url.includes("/en")) {
-      setLanguage('en-US')
+      setLanguage("en-US");
     } else {
-      setLanguage('pt-BR')
-
+      setLanguage("pt-BR");
     }
-  }, [])
+  }, []);
 
   const scrollToOnClick = (event) => {
     event.preventDefault();

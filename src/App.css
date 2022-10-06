@@ -1,10 +1,71 @@
 main {
   position: relative;
-} 
+}
 
-main .wpp {
+.wrapper {
   position: absolute;
   bottom: 0;
   right: 0;
-  padding: 3rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: rgb(0, 247, 43);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 247, 43, 1) 0%,
+    rgba(0, 223, 36, 1) 35%,
+    rgba(1, 199, 21, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: inset -5px 4px 8px rgba(8, 110, 28, 0.7),
+    inset -2px 3px 9px rgba(8, 110, 28, 0.6);
+  border: 10px solid #00d520;
+  z-index: 9999;
+}
+
+.circle img {
+  width: 80px;
+  height: 80px;
+  z-index: 9999;
+}
+
+.retangle {
+  width: 360px;
+  height: 100px;
+  background: rgb(0, 247, 43);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 247, 43, 1) 0%,
+    rgba(0, 223, 36, 1) 35%,
+    rgba(1, 199, 21, 1) 100%
+  );
+  position: relative;
+  left: -65px;
+  transform: skew(-40deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 5px 4px 8px rgba(8, 110, 28, 0.7),
+    -0px -0px 5px rgb(9, 158, 30);
+  border: 5px solid #00d520;
+  border-radius: 10px;
+}
+
+.text {
+  transform: skew(40deg);
+  text-align: center;
+  color: white;
+}
+
+.text p {
+  line-height: 26px;
 }
