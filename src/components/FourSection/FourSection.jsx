@@ -22,13 +22,13 @@ const FourSection = ({ text, paragraph }) => {
               </div>
               <div className={styles.rigth}>
                 <Circle
-                  text={i18next.t("titles.fourTitleCircle")}
-                  paragraph={i18next.t("paragraphs.fourParagraphCircle")}
+                  text={i18next.t("titles.fiveTitleCircle")}
+                  paragraph={i18next.t("paragraphs.fiveParagraphCircle")}
                 />
               </div>
               <div>
                 <Circle
-                  text={i18next.t("titles.fourTitleCircle")}
+                  text={i18next.t("titles.sixTitleCard")}
                   paragraph={i18next.t("paragraphs.fourParagraphCircle")}
                 />
               </div>

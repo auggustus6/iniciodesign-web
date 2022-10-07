@@ -22,28 +22,28 @@ const ThirdSection = ({ text, paragraph }) => {
             />
             <Card
               img={code}
-              text={i18next.t("cards.titlesCard")}
-              paragraph={i18next.t("paragraphsCard.paragraphCard")}
+              text={i18next.t("cards.secondCard")}
+              paragraph={i18next.t("paragraphsCard.paragraphFirstCard")}
             />
             <Card
               img={smartphone}
-              text={i18next.t("cards.titlesCard")}
-              paragraph={i18next.t("paragraphsCard.paragraphCard")}
+              text={i18next.t("cards.thirdCard")}
+              paragraph={i18next.t("paragraphsCard.paragraphSecondCard")}
             />
             <Card
               img={pen}
-              text={i18next.t("cards.titlesCard")}
-              paragraph={i18next.t("paragraphsCard.paragraphCard")}
+              text={i18next.t("cards.fourthCard")}
+              paragraph={i18next.t("paragraphsCard.paragraphThirthCard")}
             />
             <Card
               img={code}
-              text={i18next.t("cards.titlesCard")}
-              paragraph={i18next.t("paragraphsCard.paragraphCard")}
+              text={i18next.t("cards.fiftyhCard")}
+              paragraph={i18next.t("paragraphsCard.paragraphFourthCard")}
             />
             <Card
               img={smartphone}
-              text={i18next.t("cards.titlesCard")}
-              paragraph={i18next.t("paragraphsCard.paragraphCard")}
+              text={i18next.t("cards.sixthCard")}
+              paragraph={i18next.t("paragraphsCard.paragraphFiftyhCard")}
             />
           </div>
         </div>

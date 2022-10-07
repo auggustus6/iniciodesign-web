@@ -45,7 +45,7 @@ function App() {
         <section>
           <FiveSection
             text={i18next.t("titles.fiveTitle")}
-            paragraph={i18next.t("paragraphs.fiveParagraph")}
+            paragraph={""}
           />
         </section>
         <section id="portfolio">

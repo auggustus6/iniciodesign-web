@@ -1,5 +1,4 @@
 import styles from "./Footer.module.css";
-import facobook from "../../assets/facebook.svg";
 import instagram from "../../assets/instagram.svg";
 import linkedin from "../../assets/linkedin.svg";
 import { links } from "../../data";
@@ -53,10 +52,10 @@ const Footer = () => {
             <div className={styles.contactText}>
               <ul>
                 <li>
-                  <a href="mailto:carlos@email.com">atendimento@iniciodesign.com.br</a>
+                  <a href="mailto:atendimento@iniciodesign.com.br">atendimento@iniciodesign.com.br</a>
                 </li>
               </ul>
-              <p>+55 17 991821.1933</p>
+              <p>+55 17 99182.1933</p>
             </div>
           </div>
         </div>

@@ -10,7 +10,9 @@ const FiveSection = ({ text, paragraph }) => {
           <div className={styles.contentText}>
             <h1>{text}</h1>
             <p>{paragraph}</p>
-            <a className={styles.btnGreen} href="#portfolio">
+            <a
+              className={styles.btnGreen}
+              href="#portfolio">
               {i18next.t("buttons.contact")}
             </a>
           </div>
