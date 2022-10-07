@@ -20,7 +20,7 @@ const messages = {
         fiveTitleCircle: "Orçamento & Prazos",
         sixTitleCard: "Ação",
 
-        fiveTitle: "Embarque com a nossa tripulação para desbravarmos seu projeto juntos!",
+        fiveTitle: "Embarque com a nossa equipe para desbravarmos seu projeto juntos!",
         portfolioTitle: "Nosso Portfólio",
       },
       paragraphs: {
@@ -34,7 +34,7 @@ const messages = {
           "Abaixo nossos potenciais e skills.",
 
         fourParagraph:
-          "Como trazemos inovação para você!",
+          "Veja como trabalhamos",
 
         fourParagraphCircle: "Planejamos e fazemos o levantamento de requisitos",
 
@@ -43,7 +43,7 @@ const messages = {
         sixParagraphCircle: "Nessa etapa se for projeto do zero nossa equipe de desenvolvimento entra em ação com muita animação e café, para trazer inovação no seu produto. Se for outsourcing, você terá o nosso desenvolvedor focado no seu projeto internamente na sua empresa!",
         
         fiveParagraph:
-          "Embarque com a nossa tripulação para desbravarmos seu projeto juntos!",
+          "Embarque com a nossa equipe para desbravarmos seu projeto juntos!",
         portfolioParagraph:
           "Junto com um time de alta performance você vai mais longe! Veja alguns de nossos projetos.",
       },
