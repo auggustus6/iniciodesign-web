@@ -18,23 +18,20 @@ const dataImgs = [
   {
     id: 2,
     img: img2,
-    description: "ChatBot Multfórmulas RP",
-    content:
-      "Sistema Chat Bot desenvolvido para indústria farmaceutica multfórmulas. O sistema consiste em no atendimento dos cliente whatsapp via plataforma",
+    description: `${i18next.t("modalTitles.secondTitleModal")}`,
+    content: `${i18next.t("modalParagraphs.secondParagraph")}`,
   },
   {
     id: 3,
     img: img3,
-    description: "ChatBot Multfórmulas RP",
-    content:
-      "Sistema Chat Bot desenvolvido para indústria farmaceutica multfórmulas. O sistema consiste em no atendimento dos cliente whatsapp via plataforma",
+    description: `${i18next.t("modalTitles.thirdTitleModal")}`,
+    content: `${i18next.t("modalParagraphs.thirdParagraph")}`,
   },
   {
     id: 4,
     img: img4,
-    description: "ChatBot Multfórmulas RP",
-    content:
-      "Sistema Chat Bot desenvolvido para indústria farmaceutica multfórmulas. O sistema consiste em no atendimento dos cliente whatsapp via plataforma",
+    description: `${i18next.t("modalTitles.fourthTitleModal")}`,
+    content: `${i18next.t("modalParagraphs.fourthParagraph")}`,
   },
 ];
 

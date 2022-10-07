@@ -26,7 +26,6 @@ const Footer = () => {
               <img src={logo} alt="Logo da página" />
             </div>
             <div className={styles.social}>
-              <img src={facobook} alt="" />
               <img src={instagram} alt="" />
               <img src={linkedin} alt="" />
             </div>
@@ -54,10 +53,10 @@ const Footer = () => {
             <div className={styles.contactText}>
               <ul>
                 <li>
-                  <a href="mailto:carlos@email.com">carlos@email.com</a>
+                  <a href="mailto:carlos@email.com">atendimento@iniciodesign.com.br</a>
                 </li>
               </ul>
-              <p>+55 00 0000000</p>
+              <p>+55 17 991821.1933</p>
             </div>
           </div>
         </div>

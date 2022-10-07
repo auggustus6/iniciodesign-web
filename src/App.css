@@ -64,7 +64,11 @@ main {
 .text {
   transform: skew(40deg);
   text-align: center;
-  color: white;
+  color: #000;
+}
+
+.text span {
+  font-weight: bold;
 }
 
 @media (max-width: 500px) {

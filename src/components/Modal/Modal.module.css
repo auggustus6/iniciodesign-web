@@ -51,8 +51,9 @@
 }
 
 .modalContainer .content h3 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-align: left;
+  line-height: 3rem;
   max-width: 60rem;
   margin: 5rem 0 10rem;
   color: rgba(255, 255, 255, 0.72);
