@@ -8,12 +8,11 @@ function NavBar() {
   const [language, setLanguage] = useState(
     localStorage.getItem(I18N_STORAGE_KEY)
   );
+
   const handleSelectChange = (event) => {
     localStorage.setItem(I18N_STORAGE_KEY, event.target.value);
     window.location = window.location;
   };
-
-
 
   const scrollToOnClick = (event) => {
     event.preventDefault();
@@ -57,11 +56,21 @@ function NavBar() {
             </a>
           </li>
         ))}
-        <select onChange={handleSelectChange} value={language}>
+        <select className={styles.languageDesk} onChange={handleSelectChange} value={language}>
           <option value="pt-BR">PT</option>
           <option value="en-US">EN</option>
         </select>
       </ul>
+
+      <select
+        className={styles.languages}
+        onChange={handleSelectChange}
+        value={language}
+      >
+        <option value="pt-BR">PT</option>
+        <option value="en-US">EN</option>
+      </select>
+
       <div onClick={navToggle} className={icon}>
         <div className={styles.line1}></div>
         <div className={styles.line2}></div>

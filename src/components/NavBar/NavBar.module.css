@@ -66,6 +66,10 @@ a {
   display: none;
 }
 
+.languages {
+  display: none;
+}
+
 .navToggler div {
   width: 2.5rem;
   height: 0.2rem;
@@ -75,6 +79,14 @@ a {
 }
 
 @media (max-width: 768px) {
+  .languageDesk {
+    display: none;
+  }
+  .languages {
+    display: block;
+    position: relative;
+    left: 214px;
+  }
   .nav {
     display: flex;
     justify-content: space-between;
@@ -114,5 +126,17 @@ a {
   .toggle .line3 {
     transform: rotate(45deg) translate(-3px, -5px);
     position: fixed;
+  }
+}
+
+@media (max-width: 620px) {
+  .languages {
+    left: 130px;
+  }
+}
+
+@media (max-width: 440px) {
+  .languages {
+    left: 80px;
   }
 }
