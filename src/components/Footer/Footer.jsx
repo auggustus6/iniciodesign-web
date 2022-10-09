@@ -25,8 +25,8 @@ const Footer = () => {
               <img src={logo} alt="Logo da página" />
             </div>
             <div className={styles.social}>
-              <img src={instagram} alt="" />
-              <img src={linkedin} alt="" />
+              {/* <img src={instagram} alt="" /> */}
+              {/* <img src={linkedin} alt="" /> */}
             </div>
           </div>
           <div className={styles.containerMap}>
