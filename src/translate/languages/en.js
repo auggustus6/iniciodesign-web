@@ -10,30 +10,42 @@ const messages = {
       },
       titles: {
         firstTitle:
-          "Outsourcing de desenvolvedores & Fábrica de software",
+          "Developer Outsourcing & Software Factory",
         secondTitle:
-          "Amet minim mollit non deserunt ullamco est sit aliqua dolor.",
-        thirdTitle: "Amet minim mollit non deserunt!",
-        fourTitle: "Amet minim mollit non deserunt!",
-        fourTitleCircle: "Amet minim mollit non deserunt!",
-        fiveTitle: "Amet minim mollit non deserunt!",
+          "#Outsourcing. You boost your projects with our high performance devs!",
+        thirdTitle: "Software Factory",
+        fourTitle: "We bring innovation to you!",
+
+        fourTitleCircle: "Planning",
+        fiveTitleCircle: "Budget & Deadlines",
+        sixTitleCard: "Action",
+
+        fiveTitle: "Come aboard with our team and let's explore your project together!",
         portfolioTitle: "Our Portfolio",
       },
       paragraphs: {
         firtParagraph:
-          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+          "Inicio Design provides high performance developers to develop your project in addition to our software factory.",
+
         secondParagraph:
-          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+          "We develop your project from scratch, or if you prefer, we can offer you our highly skilled devices to boost your project.",
+
         thirdParagraph:
-          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+          "Below our potentials and skills.",
+
         fourParagraph:
-          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-        fourParagraphCircle:
-          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+          "See how we work",
+
+        fourParagraphCircle: "We plan and do the requirements gathering",
+
+        fiveParagraphCircle: "At this stage we see how big the project is or which professional will make the most sense to be connected, then we make a fair budge",
+
+        sixParagraphCircle: "In this step, if it's a greenfield project, our development team comes into play with lots of excitement and coffee, to bring innovation to your product. If it is outsourcing, you will have our developer focused on your project internally at your company!",
+        
         fiveParagraph:
-          "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.",
+          "Come aboard with our team and let's explore your project together!",
         portfolioParagraph:
-          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+          "Together with a high performance team you will go further! See some of our projects.",
       },
       buttons: {
         myServices: "My services",
@@ -42,18 +54,33 @@ const messages = {
         contact: "Get in touch",
       },
       cards: {
-        titlesCard: "Amet minim",
+        titlesCard: "Design App",
+        secondCard: "Ideas and ideas",
+        thirdCard: "Security",
+        fourthCard: "Perfomance",
+        fiftyhCard: "Creativity always",
+        sixthCard: "With numbers it is better!",
       },
       paragraphsCard: {
         paragraphCard:
-          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+          "Always innovative, beautiful, minimalistic, with a good user experience.",
+          paragraphFirstCard:
+          "We are not only programmers, we are developers, so we also help you with innovative ideas.",
+          paragraphSecondCard:
+          "Our apps are built following the best techniques to make your app secure.",
+          paragraphThirthCard:
+          "We use best practices that impact performance in a very positive way!",
+          paragraphFourthCard:
+          "A pinch of creativity here, a pinch of passion there, and you will see your project with new eyes.",
+          paragraphFiftyhCard:
+          "We leave your project with statistics, which you can use to improve your product.",
       },
       footer: {
         footerContact: "Contact",
       },
       modalTitles: {
         firstTitleModal: "ChatBot Multiformulas RP",
-        secondTitleModal: "Keff - Desenvolvimento de Rótulos",
+        secondTitleModal: "Keff - Label Development",
         thirdTitleModal: "Contane - LP",
         fourthTitleModal: "SavePik - App",
       },
