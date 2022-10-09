@@ -25,56 +25,62 @@ function NavBar() {
     });
   };
 
-  const [active, setActive] = useState(`${styles.navMenu}`);
-  const [icon, setIcon] = useState(`${styles.navToggler}`);
-
-  const navToggle = () => {
-    if (active === `${styles.navMenu}`) {
-      setActive(`${styles.navMenu} ${styles.navActive}`);
-    } else setActive(`${styles.navMenu}`);
-
-    if (icon === `${styles.navMenu}`) {
-      setIcon(`${styles.navToggler} ${styles.toggle}`);
-    } else setIcon(`${styles.navToggler}`);
-  };
+  const [isActive, setIsActive] = useState(false);
 
   return (
     <nav className={styles.nav}>
-      <a href="#" className={styles.navBrand}>
-        <img src={logo} alt="Imagem logo da página" />
-      </a>
-
-      <ul className={active}>
-        {links.map((link) => (
-          <li
-            className={styles.navItem}
-            key={link.id}
-            onClick={() => setActive(`${styles.navMenu}`)}
+      <div className={styles.container}>
+        <div className={styles.content}>
+          <a href="#" className={styles.navBrand}>
+            <img src={logo} alt="Imagem logo da página" />
+          </a>
+          {/* DESKTOP VERSION */}
+          <ul className={styles.desktop}>
+            {links.map((link) => (
+              <li key={link.id}>
+                <a href={link.url} onClick={scrollToOnClick}>
+                  {link.text}
+                </a>
+              </li>
+            ))}
+            <select
+              className={styles.languageDesk}
+              onChange={handleSelectChange}
+              value={language}
+            >
+              <option value="pt-BR">PT</option>
+              <option value="en-US">EN</option>
+            </select>
+          </ul>
+          {/* MOBILE VERSION */}
+          <ul
+            className={`${styles.mobile} ${isActive ? styles.menuMobile : ""}`}
           >
-            <a href={link.url} onClick={scrollToOnClick}>
-              {link.text}
-            </a>
-          </li>
-        ))}
-        <select className={styles.languageDesk} onChange={handleSelectChange} value={language}>
-          <option value="pt-BR">PT</option>
-          <option value="en-US">EN</option>
-        </select>
-      </ul>
-
-      <select
-        className={styles.languages}
-        onChange={handleSelectChange}
-        value={language}
-      >
-        <option value="pt-BR">PT</option>
-        <option value="en-US">EN</option>
-      </select>
-
-      <div onClick={navToggle} className={icon}>
-        <div className={styles.line1}></div>
-        <div className={styles.line2}></div>
-        <div className={styles.line3}></div>
+            {links.map((link) => (
+              <li key={link.id} onClick={() => setIsActive(false)}>
+                <a href={link.url} onClick={scrollToOnClick}>
+                  {link.text}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <select
+            className={styles.languageMobile}
+            onChange={handleSelectChange}
+            value={language}
+          >
+            <option value="pt-BR">PT</option>
+            <option value="en-US">EN</option>
+          </select>
+          <div
+            onClick={() => setIsActive(!isActive)}
+            className={`${styles.icon} ${isActive ? styles.actived : ""}`}
+          >
+            <div className={styles.line1}></div>
+            <div className={styles.line2}></div>
+            <div className={styles.line3}></div>
+          </div>
+        </div>
       </div>
     </nav>
   );

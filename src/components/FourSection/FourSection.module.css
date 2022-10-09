@@ -62,10 +62,13 @@
   margin-top: 10rem;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1050px) {
   .rigth {
     left: 0;
   }
+}
+
+@media (max-width: 780px) {
   .containerContent {
     padding: 10rem 0 5rem;
   }
