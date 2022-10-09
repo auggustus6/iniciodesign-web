@@ -106,7 +106,20 @@
   }
 }
 
-@media (max-width: 545px) {
+@media (max-width: 680px) {
+  .containerContent {
+    flex-direction: column;
+  }
+  .mapText ul {
+    display: flex;
+    gap: 20px;
+  }
+  .contact p {
+    margin: 0;
+  }
+  .contactText {
+    margin-bottom: 2rem;
+  }
   .containerMap {
     margin-right: 5rem;
   }
@@ -115,11 +128,3 @@
   }
 }
 
-@media (max-width: 460px) {
-  .containerMap {
-    margin-right: 3rem;
-  }
-  .containerSocial {
-    margin-right: 3rem;
-  }
-}
