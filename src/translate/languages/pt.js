@@ -86,13 +86,13 @@ const messages = {
       },
       modalParagraphs: {
         firstParagraph:
-          "Chat Bot system developed for the multiform pharmaceutical industry. The system consists of customer service via whatsapp",
+          "Sistema Chat Bot desenvolvido para indústria farmaceutica multiformulas. O sistema consiste em no atendimento dos clientes whatsapp via plataforma",
           secondParagraph:
-          "Institutional page with a label production system developed for the Keff industry. The page was all developed for a better content indexation and digital marketing work.",
+          "Página institucional com sistema de produção de rótulos desenvolvido para a indústria Keff. A página foi toda desenvolvida para uma melhor indexação de conteúdo e trabalho de marketing digital. ",
           thirdParagraph:
-          "Institutional website developed for a financial manager, the fun thing about this site is the animations that happen as you scroll down. Take a look",
+          "Página institucional desenvolvida para gestor financeiro, o divertido desse site são as animações que acontecem enquanto você vai 'scrollando' para baixo. Dê uma olhada",
           fourthParagraph:
-          "Application developed for the events and weddings niche. The app was developed for Android / IOS platforms. The idea of the app is that guests can interact with the bride and groom and enjoy every moment.",
+          "Aplicativo desenvolvido para o nicho de eventos e casamentos. O aplicativo foi desenvolvido para plataformas Android / IOS. A ideia do aplicativo é que os convidados possam interagir com os noivos e aproveitarem cada momento.",
       },
       seeMore: {
         see: "Veja mais ➔",
