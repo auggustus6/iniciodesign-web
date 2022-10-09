@@ -50,6 +50,11 @@
 }
 
 .containerButtons .btnBlack a {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.containerButtons .btnBlack a {
   color: var(--btnColor);
 }
 
