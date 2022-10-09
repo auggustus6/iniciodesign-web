@@ -4,7 +4,7 @@
 
 .nav {
   background: #121214;
-  padding: 30px 0;
+  padding: 3rem 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -13,7 +13,7 @@
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 118rem;
   margin: 0 auto;
   width: 95%;
 }
@@ -31,13 +31,17 @@
 }
 
 .content li {
-  margin-right: 30px;
+  margin-right: 3rem;
 }
 
 .content li a {
   text-decoration: none;
   color: rgb(204, 204, 204);
   font-size: 1.6rem;
+}
+
+.content li a:hover {
+  color: #61e876;
 }
 
 .navBrand {
@@ -86,10 +90,10 @@
     display: block;
   }
   .icon div {
-    width: 25px;
-    height: 2px;
+    width: 2.5rem;
+    height: 0.2rem;
     background: #bcbcbc;
-    margin: 3px 0;
+    margin: 0.2rem 0;
     transition: 0.5s;
   }
   .actived .line1 {
@@ -99,7 +103,7 @@
     opacity: 0;
   }
   .actived .line3 {
-    transform: rotate(45deg) translate(-2px, -5px);
+    transform: rotate(45deg) translate(0px, -5px);
   }
   .mobile {
     position: fixed;
@@ -118,7 +122,7 @@
     z-index: 9998;
   }
   .mobile li + li {
-    margin-top: 50px;
+    margin-top: 5rem;
   }
   .menuMobile {
     left: 0;
