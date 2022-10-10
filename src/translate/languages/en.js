@@ -48,7 +48,7 @@ const messages = {
           "Together with a high performance team you will go further! See some of our projects.",
       },
       buttons: {
-        myServices: "My services",
+        myServices: "Our Services",
         myPort: "Our Portfolio",
         viewPort: "See portfolio",
         contact: "Get in touch",
