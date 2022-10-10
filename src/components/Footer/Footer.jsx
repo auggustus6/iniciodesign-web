@@ -1,6 +1,4 @@
 import styles from "./Footer.module.css";
-import instagram from "../../assets/instagram.svg";
-import linkedin from "../../assets/linkedin.svg";
 import { links } from "../../data";
 import { i18next } from "../../translate/i18n";
 import logo from "../../assets/logo.png";
