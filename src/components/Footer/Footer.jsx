@@ -2,6 +2,7 @@ import styles from "./Footer.module.css";
 import { links } from "../../data";
 import { i18next } from "../../translate/i18n";
 import logo from "../../assets/logo.png";
+import instagram from "../../assets/instagram.svg";
 
 const Footer = () => {
   function scrollToOnClick(event) {
@@ -23,7 +24,9 @@ const Footer = () => {
               <img src={logo} alt="Logo da página" />
             </div>
             <div className={styles.social}>
-              {/* <img src={instagram} alt="" /> */}
+              <a href="https://www.instagram.com/iniciodesign/" target="_blank">
+                <img src={instagram} alt="icone do instagram" />
+              </a>
               {/* <img src={linkedin} alt="" /> */}
             </div>
           </div>
