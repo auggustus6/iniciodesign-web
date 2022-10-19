@@ -21,9 +21,4 @@ export const links = [
     text: `${i18next.t("links.port")}`,
     url: "#portfolio",
   },
-  {
-    id: 5,
-    text: `${i18next.t("links.contact")}`,
-    url: "#contact",
-  },
 ];

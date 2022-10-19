@@ -1,8 +1,9 @@
 import styles from "./NavBar.module.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { links } from "../../data";
 import { I18N_STORAGE_KEY } from "../../App";
 import logo from "../../assets/logo.png";
+import { i18next } from "../../translate/i18n";
 
 function NavBar() {
   const [language, setLanguage] = useState(
@@ -43,6 +44,9 @@ function NavBar() {
                 </a>
               </li>
             ))}
+            <a className={styles.contact} href="#contact">
+              {i18next.t("links.contact")}
+            </a>
             <select
               className={styles.languageDesk}
               onChange={handleSelectChange}

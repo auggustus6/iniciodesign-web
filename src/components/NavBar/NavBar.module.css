@@ -40,6 +40,21 @@
   font-size: 1.6rem;
 }
 
+.contact {
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background: var(--btn);
+  font-weight: bold;
+  color: #121214;
+  font-size: 1.6rem;
+}
+
+.contact:hover {
+  opacity: 0.8;
+}
+
 .content li a:hover {
   color: #61e876;
 }
@@ -57,6 +72,7 @@
   color: #fff;
   outline: none;
   border-radius: 3px;
+  margin-left: 3rem;
 }
 
 .icon {
