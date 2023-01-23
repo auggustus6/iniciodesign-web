@@ -55,7 +55,7 @@ function App() {
           <Footer />
         </section>
         <a
-          href="https://api.whatsapp.com/send?phone=5517991821933&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20voc%C3%AAs%20me%20ajudariam%20no%20desenvolvimento%20do%20meu%20projeto"
+          href="https://api.whatsapp.com/send?phone=5517992580206&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20voc%C3%AAs%20me%20ajudariam%20no%20desenvolvimento%20do%20meu%20projeto"
           target="_blank"
           className="wrapper"
         >
@@ -68,7 +68,7 @@ function App() {
           <div className="retangle">
             <div className="text">
               <p>Vamos tomar um café ?</p>
-              <span>+55 (17) 991821933</span>
+              <span>+55 (17) 99258-0206</span>
             </div>
           </div>
         </a>
