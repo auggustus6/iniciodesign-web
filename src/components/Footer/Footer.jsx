@@ -56,7 +56,7 @@ const Footer = () => {
                   <a href="mailto:atendimento@iniciodesign.com.br">atendimento@iniciodesign.com.br</a>
                 </li>
               </ul>
-              <p>+55 17 99182.1933</p>
+              <p>+55 17 99258.0206</p>
             </div>
           </div>
         </div>
