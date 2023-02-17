@@ -3,6 +3,7 @@ import img1 from "../../assets/multi.png";
 import img2 from "../../assets/keff.png";
 import img3 from "../../assets/contane.png";
 import img4 from "../../assets/savepik.png";
+import img5 from "../../assets/laura.png";
 import btn from "../../assets/btn.svg";
 import { useRef, useState } from "react";
 import Modal from "../Modal/Modal";
@@ -32,6 +33,12 @@ const dataImgs = [
     img: img4,
     description: `${i18next.t("modalTitles.fourthTitleModal")}`,
     content: `${i18next.t("modalParagraphs.fourthParagraph")}`,
+  },
+  {
+    id: 5,
+    img: img5,
+    description: `${i18next.t("modalTitles.fiveTitleModal")}`,
+    content: `${i18next.t("modalParagraphs.fiveParagrah")}`,
   },
 ];
 

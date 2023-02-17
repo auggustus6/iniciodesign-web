@@ -83,6 +83,7 @@ const messages = {
         secondTitleModal: "Keff - Label Development",
         thirdTitleModal: "Contane - LP",
         fourthTitleModal: "SavePik - App",
+        fiveTitleModal: "Advocacia - Laura Bellini",
       },
       modalParagraphs: {
         firstParagraph:
@@ -93,6 +94,8 @@ const messages = {
           "Institutional website developed for a financial manager, the fun thing about this site is the animations that happen as you scroll down. Take a look",
         fourthParagraph:
           "Application developed for the events and weddings niche. The app was developed for Android / IOS platforms. The idea of the app is that guests can interact with the bride and groom and enjoy every moment.",
+        fiveParagrah:
+          "The law firm website of Dr. Laura Bellini provides information about her legal practice and the areas of law in which she operates. Through the website, clients can learn more about Dr. Bellini and her team, read legal articles, and get in touch to schedule a consultation or obtain more information about their services. The main objective of the website is to provide clients with an overview of the legal services offered by Dr. Bellini and how she can help them with their legal needs.",
       },
       seeMore: {
         see: "See more ➔",

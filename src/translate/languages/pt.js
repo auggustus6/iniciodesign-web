@@ -83,6 +83,7 @@ const messages = {
         secondTitleModal: "Keff - Desenvolvimento de Rótulos",
         thirdTitleModal: "Contane - LP",
         fourthTitleModal: "SavePik - App",
+        fiveTitleModal: "Advocacia - Laura Bellini",
       },
       modalParagraphs: {
         firstParagraph:
@@ -93,6 +94,8 @@ const messages = {
           "Página institucional desenvolvida para gestor financeiro, o divertido desse site são as animações que acontecem enquanto você vai 'scrollando' para baixo. Dê uma olhada",
           fourthParagraph:
           "Aplicativo desenvolvido para o nicho de eventos e casamentos. O aplicativo foi desenvolvido para plataformas Android / IOS. A ideia do aplicativo é que os convidados possam interagir com os noivos e aproveitarem cada momento.",
+        fiveParagrah:
+          "O site de advocacia da Dra. Laura Bellini apresenta informações sobre sua prática jurídica e as áreas do direito em que atua. Através do site, os clientes podem conhecer melhor a Dra. Bellini e sua equipe, ler artigos jurídicos e entrar em contato para agendar uma consulta ou obter mais informações sobre seus serviços. O objetivo principal do site é fornecer aos clientes uma visão geral dos serviços jurídicos oferecidos pela Dra. Bellini e como ela pode ajudá-los em suas necessidades legais.",
       },
       seeMore: {
         see: "Veja mais ➔",

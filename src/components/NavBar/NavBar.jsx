@@ -46,7 +46,7 @@ function NavBar() {
             ))}
             <a
               className={styles.contact}
-              href="https://api.whatsapp.com/send?phone=5517991821933&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20voc%C3%AAs%20me%20ajudariam%20no%20desenvolvimento%20do%20meu%20projeto"
+              href="https://api.whatsapp.com/send?phone=5517992580206&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20voc%C3%AAs%20me%20ajudariam%20no%20desenvolvimento%20do%20meu%20projeto"
               target="_blank"
             >
               {i18next.t("links.contact")}
