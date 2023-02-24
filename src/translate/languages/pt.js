@@ -52,6 +52,8 @@ const messages = {
         myPort: "Nosso Portfólio",
         viewPort: "Ver nosso Portfólio",
         contact: "Entrar em contato",
+        myWhats: "Quero solicitar um orçamento",
+
       },
       cards: {
         titlesCard: "Design do App",

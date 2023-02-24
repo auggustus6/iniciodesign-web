@@ -16,9 +16,10 @@ const SecondSection = ({ text, paragraph }) => {
               <h1>{text}</h1>
               <p>{paragraph}</p>
               <div className={styles.containerButtons}>
-                <a className={styles.btnGreen} href="#portfolio">
-                  {i18next.t("buttons.viewPort")}
-                </a>
+                <a
+                  target="_blank"
+                  className={styles.btnGreen}
+                  href="https://api.whatsapp.com/send?phone=5517992580206&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20voc%C3%AAs%20me%20ajudariam%20no%20desenvolvimento%20do%20meu%20projeto!">{i18next.t("buttons.myWhats")}</a>
               </div>
             </div>
           </div>

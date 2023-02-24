@@ -52,6 +52,7 @@ const messages = {
         myPort: "Our Portfolio",
         viewPort: "See portfolio",
         contact: "Get in touch",
+        myWhats: "Call us on whatsapp",
       },
       cards: {
         titlesCard: "Design App",
