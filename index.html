@@ -10,6 +10,29 @@
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="628"/>
 
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '200938419282910',
+      cookie     : true,
+      xfbml      : true,
+      version    : '16.0'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
   </head>
   <body>
     <div id="root"></div>
