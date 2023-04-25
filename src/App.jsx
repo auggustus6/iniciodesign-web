@@ -16,6 +16,20 @@ export const I18N_STORAGE_KEY = "i18nextLng";
 function App() {
   return (
     <>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-M251TR68P8"></script>
+        <script>
+          {
+            `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+    
+              gtag('config', 'G-M251TR68P8');    
+            `
+          }
+        </script>
+      </head>
       <main id="home">
         <NavBar />
         <section>
