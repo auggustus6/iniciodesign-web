@@ -24,10 +24,9 @@ const Footer = () => {
               <img src={logo} alt="Logo da página" />
             </div>
             <div className={styles.social}>
-              <a href="https://www.instagram.com/iniciodesign/" target="_blank">
+              <a href="https://www.instagram.com/idwsolucoes/" target="_blank">
                 <img src={instagram} alt="icone do instagram" />
               </a>
-              {/* <img src={linkedin} alt="" /> */}
             </div>
           </div>
           <div className={styles.containerMap}>
