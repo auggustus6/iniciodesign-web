@@ -16,9 +16,9 @@ export const links = [
     text: `${i18next.t("links.about")}`,
     url: "#about",
   },
-  {
-    id: 4,
-    text: `${i18next.t("links.port")}`,
-    url: "#portfolio",
-  },
+  // {
+  //   id: 4,
+  //   text: `${i18next.t("links.port")}`,
+  //   url: "#portfolio",
+  // },
 ];
